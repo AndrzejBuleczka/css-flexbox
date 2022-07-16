@@ -24,11 +24,14 @@ body{
 
 .one {
     background-color: red;
+    flex-grow: 1;
 }
 .two {
     background-color: blue;
+    flex-grow: 2;
 }
 .three {
     background-color: green;
+    flex-grow: 3;
 }
 
