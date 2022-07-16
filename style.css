@@ -22,19 +22,16 @@ body{
 
 .box {
     height: 100px;
-    min-width: 500px;
+    flex-basis: 500px;
 }
 
 .one {
     background-color: red;
-    flex-basis: 100px;
 }
 .two {
     background-color: blue;
-    flex-basis: 200px;
 }
 .three {
     background-color: green;
-    flex-basis: 300px;
 }
 
