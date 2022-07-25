@@ -18,11 +18,14 @@ body{
     background-color: #fff;
     flex-wrap: wrap;
     /* wrap-reverse, no-wrap */
+    flex-flow: column;
+    justify-content: center;
+    height: 800px;
 }
 
 .box {
     height: 100px;
-    flex-basis: 500px;
+    flex: 0 0 100px;
 }
 
 .one {
